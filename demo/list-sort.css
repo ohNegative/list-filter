@@ -1,0 +1,53 @@
+/* CSS Document */
+
+#main-container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.right-column {
+	float: left;
+	width: 800px;
+}
+
+
+.left-column {
+	float: left;
+	width: 400px;
+}
+
+
+.right-column ul.results {
+	float: left;
+	width: 800px;
+}
+
+
+.right-column ul.results li {
+	list-style: none;
+	float: left;
+	width: 150px;
+	padding: 35px;
+}
+
+.data-container h3 {
+	float: left;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.data-container ul {
+	float: left;
+	margin-bottom: 25px;
+
+}
+
+.data-container ul li {
+	list-style: none;
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+
+
+
