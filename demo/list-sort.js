@@ -15,15 +15,14 @@ $mtv('div.tags').delegate('input[type=checkbox]', 'change', function()
             return '.' + $mtv(this).attr('rel');
         }).get().join();
 
-        lis.hide().filter(selector).show().addClass("show");   
+        lis.hide().filter(selector).show('slow').addClass("show");   
         console.log(selector)
     }
     else
     {
-        lis.show().removeClass("show");
+        lis.show('slow').removeClass("show");
     }
 });
-
 
 };
 
